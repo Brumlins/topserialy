@@ -1,6 +1,6 @@
-# FilmWeb
+# TopSerialy
 ## Ukázkový web využívající Bootstrap
-* Autor: Marek Lučný
+* Autor: Tomáš Řehulek
 * Třída: IT1
 * SŠPU Opava
 
