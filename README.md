@@ -1,4 +1,4 @@
-# TopSerialy
+# TopSeriály
 ## Ukázkový web využívající Bootstrap
 * Autor: Tomáš Řehulek
 * Třída: IT1
