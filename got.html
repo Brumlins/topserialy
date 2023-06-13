@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>Kvíz - GOT</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,12 +40,93 @@
         </form>
     </div>
 </nav>  
+
 <header class="bg-dark p-5 border-bottom">
   <!-- place navbar here -->
   <h1 class="text-center text-white">Kvíz o Game of Thrones</h1>
 </header>  
   <main>
-
+    <main class="p-5">
+      <main class="">
+          <h1>Kvíz na Game of Thrones</h1>
+          <hr class="hr1">
+      <form method="post">
+  
+            <!-- Otázka 1 -->
+  
+        <p class="alert alert-info">1. Kolik má Game of Thrones sérií?</p>
+        <div class="row mb-3">
+          <label for="otazka1" class="col-sm-2 col-form-label pb-4">Počet sérií</label>
+          <div class="col-sm-10">
+            <input type="number" class="form-control border-info" id="otazka1" name="otazka1" value="5" max="10" min="1" step="1" placeholder="Zadej počet sérií">
+          </div>
+        </div>
+        <p class="alert alert-success collapse">Správná odpověď: <b>8</b></p>
+  
+            <!-- Otázka 2 -->
+  
+            <p class="alert alert-info">2. Kdy vyšel první díl?</p>
+            <div class="row mb-3">
+              <label for="otazka2" class="col-sm-2 col-form-label pb-4">Rok</label>
+              <div class="col-sm-10">
+                <input type="number" class="form-control border-info" id="otazka2" name="otazka2" placeholder="Zadej rok" value="2010" max="2020" min="2000" step="1">
+              </div>
+            </div>
+            <p class="alert alert-success collapse">Správné odpovědi: <b>2011</b></p>
+      
+            <!-- Otázka 3 -->
+            <p class="alert alert-info">3. Kdo nejčastěji režíroval díly Game of Thrones?</p>
+        <fieldset class="row mb-3">
+          <legend class="col-form-label col-sm-2 pt-0">Vyber správného režiséra:</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="otazka3" id="otazka3" value="option1">
+              <label class="form-check-label" for="skyfall">
+                Miguel Sapochnik
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="otazka3" id="otazka32" value="option2">
+              <label class="form-check-label" for="Spectre">
+                David Nutter
+              </label>
+            </div>
+            <div class="form-check disabled">
+              <input class="form-check-input" type="radio" name="otazka3" id="otazka3" value="option3" >
+              <label class="form-check-label pb-3" for="no-time-to-die" class="">
+                Alan Taylor
+              </label>
+            </div>
+          </div>
+        </fieldset>
+        <p class="alert alert-success collapse">Správná odpověď: <b>David Nutter</b></p>
+  
+  <!-- Otázka 4 -->
+  <p class="alert alert-info">4. Je Ozzy Osbourne součástí kapely Black Sabbath?</p>
+        <div class="row mb-3">
+          <legend class="col-form-label col-sm-2">Vyber správnou odpověď:</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Ano
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Ne
+              </label>
+            </div>
+          </div>
+        </div>
+        <p class="alert alert-success collapse">Správná odpověď: <b>Ano</b></p>
+  
+        <button type="button" class="btn btn-primary mt-4" data-bs-toggle="collapse" data-bs-target=".collapse">Zobrazit spávné odpovědi</button>
+      </form>
+  <hr class="hr1">
+    </main>
+  
   </main>
   <footer>
     <!-- place footer here -->
