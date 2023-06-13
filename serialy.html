@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body class="bg-dark">
   <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
     <a class="navbar-brand" href="#">TopSerialy   </a>
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -44,12 +44,87 @@
   <!-- place navbar here -->
   <h1 class="text-center text-white">Kvíz o seriálech</h1>
 </header>  
-  <main>
+  <main class="text-white p-5">
+    <h1>Kvíz na Game of Thrones</h1>
+    <form method="post">
+  
+      <!-- Otázka 1 -->
 
+  <p class="alert alert-info">1. Kolik má Game of Thrones sérií?</p>
+  <div class="row mb-3">
+    <label for="otazka1" class="col-sm-2 col-form-label pb-4">Počet sérií</label>
+    <div class="col-sm-10">
+      <input type="number" class="form-control border-info" id="otazka1" name="otazka1" value="5" max="10" min="1" step="1" placeholder="Zadej počet sérií">
+    </div>
+  </div>
+  <p class="alert alert-success collapse">Správná odpověď: <b>8</b></p>
+
+      <!-- Otázka 2 -->
+
+      <p class="alert alert-info">2. Kdy vyšel první díl?</p>
+      <div class="row mb-3">
+        <label for="otazka2" class="col-sm-2 col-form-label pb-4">Rok</label>
+        <div class="col-sm-10">
+          <input type="number" class="form-control border-info" id="otazka2" name="otazka2" placeholder="Zadej rok" value="2010" max="2020" min="2000" step="1">
+        </div>
+      </div>
+      <p class="alert alert-success collapse">Správné odpovědi: <b>2011</b></p>
+
+      <!-- Otázka 3 -->
+      <p class="alert alert-info">3. Kdo nejčastěji režíroval díly Game of Thrones?</p>
+  <fieldset class="row mb-3">
+    <legend class="col-form-label col-sm-2 pt-0">Vyber správného režiséra:</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="otazka3" id="otazka3" value="option1">
+        <label class="form-check-label" for="skyfall">
+          Miguel Sapochnik
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="otazka3" id="otazka32" value="option2">
+        <label class="form-check-label" for="Spectre">
+          David Nutter
+        </label>
+      </div>
+      <div class="form-check disabled">
+        <input class="form-check-input" type="radio" name="otazka3" id="otazka3" value="option3" >
+        <label class="form-check-label pb-3" for="no-time-to-die" class="">
+          Alan Taylor
+        </label>
+      </div>
+    </div>
+  </fieldset>
+  <p class="alert alert-success collapse">Správná odpověď: <b>David Nutter</b></p>
+
+<!-- Otázka 4 -->
+<p class="alert alert-info">4. Je Ozzy Osbourne součástí kapely Black Sabbath?</p>
+  <div class="row mb-3">
+    <legend class="col-form-label col-sm-2">Vyber správnou odpověď:</legend>
+    <div class="col-sm-10">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Ano
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck1">
+        <label class="form-check-label" for="gridCheck1">
+          Ne
+        </label>
+      </div>
+    </div>
+  </div>
+  <p class="alert alert-success collapse">Správná odpověď: <b>Ano</b></p>
+
+  <button type="button" class="btn btn-primary mt-4" data-bs-toggle="collapse" data-bs-target=".collapse">Zobrazit spávné odpovědi</button>
+  </form>
+    <hr class="hr1 text-white">
   </main>
   <footer>
     <!-- place footer here -->
-    <p class="text-center">&copy; 2023 - Tomáš Řehulek, IT1</p>
+    <p class="text-center text-white">&copy; 2023 - Tomáš Řehulek, IT1</p>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
