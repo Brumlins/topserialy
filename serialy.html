@@ -14,61 +14,56 @@
 </head>
 
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
-    <a class="navbar-brand" href="#">TopSerialy   </a>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary ">
+    <a class="navbar-brand p-3">TopSerialy   </a>
     <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
         aria-expanded="false" aria-label="Toggle navigation"></button>
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav me-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link active" href="../topserialy/" aria-current="page">Úvod <span class="visually-hidden">(current)</span></a>
+                <a class="nav-link active p-3" href="../topserialy/" aria-current="page">Úvod <span class="visually-hidden">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="../topserialy/kontakt.html">Kontakt</a>
+                <a class="nav-link p-3" href="../topserialy/kontakt.html">Kontakt</a>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kvízy</a>
+                <a class="nav-link dropdown-toggle p-3" href="" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kvízy</a>
                 <div class="dropdown-menu" aria-labelledby="dropdownId">
                     <a class="dropdown-item" href="../topserialy/serialy.html">Kvíz o seriálech</a>
                     <a class="dropdown-item" href="../topserialy/got.html">Kvíz o Game of Thrones</a>
                 </div>
             </li>
         </ul>
-        <form class="d-flex my-2 my-lg-0">
-            <input class="form-control me-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
     </div>
-</nav>  
+</nav>
 <header class="bg-dark p-5 border-bottom">
   <!-- place navbar here -->
   <h1 class="text-center text-white">Kvíz o seriálech</h1>
 </header>  
   <main class="text-white p-5">
-    <h1>Kvíz na Game of Thrones</h1>
     <form method="post">
   
       <!-- Otázka 1 -->
 
-  <p class="alert alert-info">1. Kolik má Game of Thrones sérií?</p>
+  <p class="alert alert-info">1. Jaký je nejvýdělečtější seriál?</p>
   <div class="row mb-3">
-    <label for="otazka1" class="col-sm-2 col-form-label pb-4">Počet sérií</label>
+    <label for="otazka1" class="col-sm-2 col-form-label pb-4">Název seriálu</label>
     <div class="col-sm-10">
-      <input type="number" class="form-control border-info" id="otazka1" name="otazka1" value="5" max="10" min="1" step="1" placeholder="Zadej počet sérií">
+      <input type="text" class="form-control border-info" id="otazka1" name="otazka1" placeholder="Zadej název seriálu">
     </div>
   </div>
-  <p class="alert alert-success collapse">Správná odpověď: <b>8</b></p>
+  <p class="alert alert-success collapse">Správná odpověď: <b>The Simpsons</b></p>
 
       <!-- Otázka 2 -->
 
-      <p class="alert alert-info">2. Kdy vyšel první díl?</p>
+      <p class="alert alert-info">2. Kolik dílů má Breaking Bad?</p>
       <div class="row mb-3">
-        <label for="otazka2" class="col-sm-2 col-form-label pb-4">Rok</label>
+        <label for="otazka2" class="col-sm-2 col-form-label pb-4">Celkový počet dílů</label>
         <div class="col-sm-10">
-          <input type="number" class="form-control border-info" id="otazka2" name="otazka2" placeholder="Zadej rok" value="2010" max="2020" min="2000" step="1">
+          <input type="number" class="form-control border-info" id="otazka2" name="otazka2" placeholder="Zadej počet dílů" value="60" max="70" min="50" step="1">
         </div>
       </div>
-      <p class="alert alert-success collapse">Správné odpovědi: <b>2011</b></p>
+      <p class="alert alert-success collapse">Správné odpovědi: <b>62</b></p>
 
       <!-- Otázka 3 -->
       <p class="alert alert-info">3. Kdo nejčastěji režíroval díly Game of Thrones?</p>
