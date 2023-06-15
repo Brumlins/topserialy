@@ -1,235 +1,346 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="cs">
 
 <head>
   <title>TopSeriály</title>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta charset="utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
 
   <!-- Bootstrap CSS v5.2.1 -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/my.css" rel="stylesheet">  
+  <link href="css/bootstrap.min.css" rel="stylesheet" >
+  <link href="css/my.css" rel="stylesheet" >
 </head>
 
 <body class="bg-dark">
-  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary ">
-      <a class="navbar-brand p-3">TopSerialy   </a>
-      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-          aria-expanded="false" aria-label="Toggle navigation"></button>
-      <div class="collapse navbar-collapse" id="collapsibleNavId">
-          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link active p-3" href="../topserialy/" aria-current="page">Úvod <span class="visually-hidden">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link p-3" href="../topserialy/kontakt.html">Kontakt a zdroje</a>
-              </li>
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle p-3" href="" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Kvízy</a>
-                  <div class="dropdown-menu" aria-labelledby="dropdownId">
-                      <a class="dropdown-item" href="../topserialy/serialy.html">Kvíz o seriálech</a>
-                      <a class="dropdown-item" href="../topserialy/got.html">Kvíz o Game of Thrones</a>
-                  </div>
-              </li>
-          </ul>
-      </div>
-  </nav>  
+  <nav class="navbar navbar-expand-sm navbar-dark bg-secondary">
+    <a class="navbar-brand p-3">TopSerialy </a>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId"
+      aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"></button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+      <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active p-3" href="../topserialy/" aria-current="page">Úvod <span
+              class="visually-hidden">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link p-3" href="../topserialy/kontakt.html">Kontakt a zdroje</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle p-3" href="" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Kvízy</a>
+          <div class="dropdown-menu" aria-labelledby="dropdownId">
+            <a class="dropdown-item" href="../topserialy/serialy.html">Kvíz o seriálech</a>
+            <a class="dropdown-item" href="../topserialy/got.html">Kvíz o Game of Thrones</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <header class="bg-dark p-5">
     <!-- place navbar here -->
     <h1 class="text-center text-white">TopSeriály</h1>
-  </header>  
+  </header>
   <main>
     <div id="carouselId" class="carousel slide carousel-fade border-bottom border-top" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>            
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img src="https://static.hbo.com/game-of-thrones-1-1920x1080.jpg" class="w-100 d-block crop"
+            alt="Game of Thrones" >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Game of Thrones</h3>
           </div>
-        <div class="carousel-inner" role="listbox">
-            <div class="carousel-item active" data-bs-interval="3000">
-                <img src="https://static.hbo.com/game-of-thrones-1-1920x1080.jpg" class="w-100 d-block crop" alt="Game of Thrones">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Game of Thrones</h3>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="https://mobitecno.net/wp-content/uploads/2019/09/stranger-thing-wallpaper.jpg.webp" class="w-100 d-block crop" alt="Stranger Things">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Stranger Things</h3>
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="https://wallpapers.com/images/hd/negan-and-the-walking-dead-ensemble-fkun995dpe0l5zna.jpg" class="w-100 d-block crop" alt="The Walking Dead">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>The Walking Dead</h3>   
-                </div>
-            </div>
-            <div class="carousel-item" data-bs-interval="3000">
-                <img src="https://wallpapercave.com/wp/wp1935737.jpg" class="w-100 d-block crop" alt="13 Reasons Why">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>13 Reasons Why</h3>
-                </div>
-            </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="https://mobitecno.net/wp-content/uploads/2019/09/stranger-thing-wallpaper.jpg.webp"
+            class="w-100 d-block crop" alt="Stranger Things" >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Stranger Things</h3>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="https://wallpapers.com/images/hd/negan-and-the-walking-dead-ensemble-fkun995dpe0l5zna.jpg"
+            class="w-100 d-block crop" alt="The Walking Dead" >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>The Walking Dead</h3>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img src="https://wallpapercave.com/wp/wp1935737.jpg" class="w-100 d-block crop" alt="13 Reasons Why" >
+          <div class="carousel-caption d-none d-md-block">
+            <h3>13 Reasons Why</h3>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
     <h1 class="text-center text-white p-5">Nejsledovanější seriály</h1>
-    
 
-
-        <div class="container-fluid">
-            <div class="row d-flex justify-content-center">
-                <div class="" style="width: 20%;">
-                    <img src="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">1. Friends</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="align-items-start" style="width: 20%;">
-                    <img src="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">2. The Simpsons</p>
-                    </div>
-                  </div><div class="me-5 ms-5" style="width: 20%;">
-                    <img src="https://www.comingsoon.net/wp-content/uploads/sites/3/2022/06/emilia-clarke-daenerys-targaryen-game-of-thrones-hbo.jpg?w=800" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">3. Game of Thrones</p>
-                    </div>
-                  </div><div class="" style="width: 20%;">
-                    <img src="https://1884403144.rsc.cdn77.org/foto/breaking-bad-serial-pernikovy-tata/MHgwL3NtYXJ0L3RoYg/1-normal690-5256974.jpg?v=4&st=w9gayqrdYx5WxyJ56ceLz-8lD3CcoaOiBe2KrT-Dmng&ts=1600812000&e=0" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">4. Breaking Bad</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="" style="width: 20%;">
-                    <img src="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">5. The Big Bang Theory</p>
-                    </div>
-                  </div><div class="me-5 ms-5" style="width: 20%;">
-                    <img src="https://media.newyorker.com/photos/645937d85f9f00a78b901e29/16:9/w_2987,h_1680,c_limit/brody-guardians3.jpg" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">6. Strážci Galaxie</p>
-                    </div>
-                  </div><div class="" style="width: 20%;">
-                    <img src="https://ca-times.brightspotcdn.com/dims4/default/d0835da/2147483647/strip/true/crop/4500x3002+0+0/resize/1200x801!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F26%2F35%2F3079d0994d229e978acfdd02fa36%2Ftwd-1123-jd-0217-0035-rt.jpg" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">7. The Walking Dead</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="" style="width: 20%;">
-                    <img src="https://ca-times.brightspotcdn.com/dims4/default/9f2c4c9/2147483647/strip/true/crop/7040x3520+0+0/resize/1200x600!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fdf%2Fda%2Fcdd4db0e4e95af32f06d38554bfe%2Fst3-production-still-8.jpg" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">8. Stranger Things</p>
-                    </div>
-                  </div><div class="me-5 ms-5" style="width: 20%;">
-                    <img src="https://media.wired.com/photos/5933825fd80dd005b42b2742/master/w_2560%2Cc_limit/Kevin-Spacey-House-of-Cards-Netflix.jpg" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">9. House of Cards</p>
-                    </div>
-                  </div><div class="" style="width: 20%;">
-                    <img src="https://imgix.theurbanlist.com/content/general/the-office-australia-version.jpg?auto=format,compress&w=520&h=390&fit=crop" class="card-img-top obrazky" alt="...">
-                    <div class="card-body bg-dark">
-                      <p class="card-text text-white text-center">10. The Office</p>
-                    </div>
-                  </div>
-            </div>
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+            data-toggle="lightbox" data-caption="1. Friends">
+            <img
+              src="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+              class="card-img-top obrazky" alt="Friends" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">1. Friends</p>
+          </div>
         </div>
-
-
-
-
-
-
-        <h1 class="text-center text-white p-5">Nejvýdělečtější seriály</h1>
-        <div class="container-fluid">
-          <div class="row d-flex justify-content-center">
-              <div class="" style="width: 20%;">
-                  <img src="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">1. The Simpsons</p>
-                  </div>
-                </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-              <div class="align-items-start" style="width: 20%;">
-                  <img src="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">2. Friends</p>
-                  </div>
-                </div><div class="me-5 ms-5" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/modern-family.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">3. Modern Family</p>
-                  </div>
-                </div><div class="" style="width: 20%;">
-                  <img src="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">4. Big Bang Theory</p>
-                  </div>
-                </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-              <div class="" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/cheers.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">5. Cheers</p>
-                  </div>
-                </div><div class="me-5 ms-5" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/frasier.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">6. Frasier</p>
-                  </div>
-                </div><div class="" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/seinfeld.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">7. Seinfeld</p>
-                  </div>
-                </div>
-          </div>
-          <div class="row d-flex justify-content-center">
-              <div class="" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/everybody-loves-raymond.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">8. Everybody Loves Raymond</p>
-                  </div>
-                </div><div class="me-5 ms-5" style="width: 20%;">
-                  <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/grey-s-anatomy.jpg?q=50&fit=crop&w=1500&dpr=1.5" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">9. Grey's Anatomy</p>
-                  </div>
-                </div><div class="" style="width: 20%;">
-                  <img src="https://yt3.ggpht.com/Cu49auxobzgO00l70uTAAHr7_3Qyf8gT12p2azC8k8WORCKf2tfCf8WXwg0q5Cbi5qQIZVDP9w=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj" class="card-img-top obrazky" alt="...">
-                  <div class="card-body bg-dark">
-                    <p class="card-text text-white text-center">10. Two and a Half Men</p>
-                  </div>
-                </div>
-          </div>
       </div>
-        <hr class="hr1 text-white">
-    </main>
+      <div class="row d-flex justify-content-center">
+        <div class="align-items-start" style="width: 20%">
+          <a href="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg"
+            data-toggle="lightbox" data-caption="2. The Simpsons">
+            <img
+              src="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg"
+              class="card-img-top obrazky" alt="The Simpsons" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">2. The Simpsons</p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://www.comingsoon.net/wp-content/uploads/sites/3/2022/06/emilia-clarke-daenerys-targaryen-game-of-thrones-hbo.jpg?w=800"
+            data-toggle="lightbox" data-caption="3. Game of Thrones">
+            <img
+              src="https://www.comingsoon.net/wp-content/uploads/sites/3/2022/06/emilia-clarke-daenerys-targaryen-game-of-thrones-hbo.jpg?w=800"
+              class="card-img-top obrazky" alt="Game of Thrones" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">3. Game of Thrones</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://1884403144.rsc.cdn77.org/foto/breaking-bad-serial-pernikovy-tata/MHgwL3NtYXJ0L3RoYg/1-normal690-5256974.jpg?v=4&st=w9gayqrdYx5WxyJ56ceLz-8lD3CcoaOiBe2KrT-Dmng&ts=1600812000&e=0"
+            data-toggle="lightbox" data-caption="4. Breaking Bad">
+            <img
+              src="https://1884403144.rsc.cdn77.org/foto/breaking-bad-serial-pernikovy-tata/MHgwL3NtYXJ0L3RoYg/1-normal690-5256974.jpg?v=4&st=w9gayqrdYx5WxyJ56ceLz-8lD3CcoaOiBe2KrT-Dmng&ts=1600812000&e=0"
+              class="card-img-top obrazky" alt="Breaking Bad" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">4. Breaking Bad</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a"
+            data-toggle="lightbox" data-caption="5. The Big Bang Theory">
+            <img
+              src="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a"
+              class="card-img-top obrazky" alt="The Big Band Theory" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">
+              5. The Big Bang Theory
+            </p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://media.newyorker.com/photos/645937d85f9f00a78b901e29/16:9/w_2987,h_1680,c_limit/brody-guardians3.jpg"
+            data-toggle="lightbox" data-caption="6. Strážci Galaxie">
+            <img
+              src="https://media.newyorker.com/photos/645937d85f9f00a78b901e29/16:9/w_2987,h_1680,c_limit/brody-guardians3.jpg"
+              class="card-img-top obrazky" alt="Strážci Galaxie" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">6. Strážci Galaxie</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://ca-times.brightspotcdn.com/dims4/default/d0835da/2147483647/strip/true/crop/4500x3002+0+0/resize/1200x801!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F26%2F35%2F3079d0994d229e978acfdd02fa36%2Ftwd-1123-jd-0217-0035-rt.jpg"
+            data-toggle="lightbox" data-caption="7. The Walking Dead">
+            <img
+              src="https://ca-times.brightspotcdn.com/dims4/default/d0835da/2147483647/strip/true/crop/4500x3002+0+0/resize/1200x801!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F26%2F35%2F3079d0994d229e978acfdd02fa36%2Ftwd-1123-jd-0217-0035-rt.jpg"
+              class="card-img-top obrazky" alt="The Walking Dead" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">
+              7. The Walking Dead
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://ca-times.brightspotcdn.com/dims4/default/9f2c4c9/2147483647/strip/true/crop/7040x3520+0+0/resize/1200x600!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fdf%2Fda%2Fcdd4db0e4e95af32f06d38554bfe%2Fst3-production-still-8.jpg"
+            data-toggle="lightbox" data-caption="8. Stranger Things">
+            <img
+              src="https://ca-times.brightspotcdn.com/dims4/default/9f2c4c9/2147483647/strip/true/crop/7040x3520+0+0/resize/1200x600!/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fdf%2Fda%2Fcdd4db0e4e95af32f06d38554bfe%2Fst3-production-still-8.jpg"
+              class="card-img-top obrazky" alt="Stranger Things" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">8. Stranger Things</p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://media.wired.com/photos/5933825fd80dd005b42b2742/master/w_2560%2Cc_limit/Kevin-Spacey-House-of-Cards-Netflix.jpg"
+            data-toggle="lightbox" data-caption="9. House of Cards">
+            <img
+              src="https://media.wired.com/photos/5933825fd80dd005b42b2742/master/w_2560%2Cc_limit/Kevin-Spacey-House-of-Cards-Netflix.jpg"
+              class="card-img-top obrazky" alt="House of Cards" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">9. House of Cards</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://imgix.theurbanlist.com/content/general/the-office-australia-version.jpg?auto=format,compress&w=520&h=390&fit=crop"
+            data-toggle="lightbox" data-caption="10. The Office">
+            <img
+              src="https://imgix.theurbanlist.com/content/general/the-office-australia-version.jpg?auto=format,compress&w=520&h=390&fit=crop"
+              class="card-img-top obrazky" alt="The Office" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">10. The Office</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h1 class="text-center text-white p-5">Nejvýdělečtější seriály</h1>
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg"
+            data-toggle="lightbox" data-caption="1. The Simpsons">
+            <img
+              src="https://pyxis.nymag.com/v1/imgs/b2d/cca/7ef3d90ffe90465f8c9b16448382185286-02-simpsons-couch.2x.rsocial.w600.jpg"
+              class="card-img-top obrazky" alt="The Simpsons" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">1. The Simpsons</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="align-items-start" style="width: 20%">
+          <a href="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+            data-toggle="lightbox" data-caption="2. Friends">
+            <img
+              src="https://i.shgcdn.com/3cfb514f-e69c-4450-8bcc-86f8474e5fb6/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+              class="card-img-top obrazky" alt="Friends" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">2. Friends</p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/modern-family.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="3. Modern Family">
+            <img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/modern-family.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky" alt="Modern Family" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">3. Modern Family</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a"
+            data-toggle="lightbox" data-caption="4. Big Bang Theory">
+            <img
+              src="https://occ-0-2794-590.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABQaBRY79IdmG30iKERAB3QHXLv15_B4BCO3ph7dp7MPFSWq2eW6QVCYZWC1OgezE_FtKdvqRCEADwtvmJGVcDHQbMx5OXZFMlvVZ.jpg?r=d9a"
+              class="card-img-top obrazky" alt="Big Bang Theory" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">4. Big Bang Theory</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/cheers.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="5. Cheers">
+            <img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/cheers.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky" alt="Cheers" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">5. Cheers</p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/frasier.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="6. Frasier">
+            <img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/frasier.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky" alt="Frasier" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">6. Frasier</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/seinfeld.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="7. Seinfeld">
+            <img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/seinfeld.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky" alt="Seinfeld" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">7. Seinfeld</p>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/everybody-loves-raymond.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="8. Everybody loves Raymond"><img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/everybody-loves-raymond.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky img-fluid" alt="Everybody Loves Raymond" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">
+              8. Everybody Loves Raymond
+            </p>
+          </div>
+        </div>
+        <div class="me-5 ms-5" style="width: 20%">
+          <a href="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/grey-s-anatomy.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+            data-toggle="lightbox" data-caption="9. Grey's Anatomy">
+            <img
+              src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/01/grey-s-anatomy.jpg?q=50&fit=crop&w=1500&dpr=1.5"
+              class="card-img-top obrazky" alt="Grey's Anatomy"></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">9. Grey's Anatomy</p>
+          </div>
+        </div>
+        <div style="width: 20%">
+          <a href="https://yt3.ggpht.com/Cu49auxobzgO00l70uTAAHr7_3Qyf8gT12p2azC8k8WORCKf2tfCf8WXwg0q5Cbi5qQIZVDP9w=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj"
+            data-toggle="lightbox" data-caption="10. Two and a Half Men">
+            <img
+              src="https://yt3.ggpht.com/Cu49auxobzgO00l70uTAAHr7_3Qyf8gT12p2azC8k8WORCKf2tfCf8WXwg0q5Cbi5qQIZVDP9w=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj"
+              class="card-img-top obrazky" alt="Two and a Hald Men" ></a>
+          <div class="card-body bg-dark">
+            <p class="card-text text-white text-center">
+              10. Two and a Half Men
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="hr1 text-white" >
+  </main>
   <footer>
     <!-- place footer here -->
     <p class="text-center text-white">&copy; 2023 - Tomáš Řehulek, IT1</p>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="js/bootstrap.bundle.min.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+  <script>
+    const options = {
+      keyboard: true,
+      size: 'fullscreen'
+    };
+
+    document.querySelectorAll('.my-lightbox-toggle').forEach((el) => el.addEventListener('click', (e) => {
+      e.preventDefault();
+      const lightbox = new Lightbox(el, options);
+      lightbox.show();
+    }));
+  </script>
 </body>
 
 </html>
